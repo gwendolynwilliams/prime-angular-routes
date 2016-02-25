@@ -1,0 +1,163 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+    margin:0; padding:0;
+}
+
+/* HTML ELEMENTS */
+body {
+    color: #fff;
+    font: 14px 'Arvo', serif;
+    line-height: 18px;
+}
+
+a {
+    outline:none;
+}
+
+/* COMMON CLASSES */
+.break {
+    clear:both;
+}
+
+/* WRAPPER */
+#wrapper {
+    width: 800px;
+    margin: 20px auto;
+}
+
+/* CONTENT */
+/*#content {*/
+
+/*}*/
+
+#content p {
+    margin:20px;
+}
+
+/* MENU */
+#menu {
+    margin: 45px 0 0 100px;
+}
+
+#menu ul {
+    list-style:none;
+}
+
+#menu ul li {
+    display:inline;
+    float:left;
+    margin-bottom:20px;
+}
+
+/* :first-child pseudo selector with rounded top left corner */
+#menu ul li:first-child a {
+    -moz-border-radius-topleft: 12px;
+    -webkit-border-top-left-radius:12px; }
+
+/* :last-child pseudo selector with rounded top right corner */
+#menu ul li:last-child a {
+    -moz-border-radius-topright: 12px;
+    -webkit-border-top-right-radius:12px;
+}
+
+/* background color set to RGBA, with opacity on 0.3 and also using text-shadow */
+#menu ul li a {
+    padding: 20px;
+    background: #2ea7e4;
+    text-decoration: none;
+    font: 15px 'Bitter', serif;
+    color: #402e16;
+}
+
+/* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey gradient on top */
+#menu ul li a:hover {
+    background: #3293d1 !important;
+}
+
+/* another RGBA background, now with an opacity of 0.8 */
+#menu ul li a.active {
+    background: rgba(255,138,30,0.8) !important;
+}
+
+/* main contents with RGBA background (same colour as active tab) and three rounded corners */
+#main {
+    clear: both;
+    background: rgba(255,138,30,0.8);
+    width:600px;
+    margin-left:100px;
+    height: 600px;
+    -moz-border-radius-topright: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    -webkit-border-top-right-radius:12px;
+    -webkit-border-bottom-right-radius:12px;
+    -webkit-border-bottom-left-radius:12px;
+}
+
+/* header with a text-shadow */
+#main h3 {
+    font: 45px 'Bevan', Sans-serif;
+    text-transform:uppercase;
+    padding:20px 0 0 20px;
+    color:#fff;
+    text-shadow: #000 0px 0px 2px;
+}
+
+#main p {
+    padding-bottom:20px;
+    color: #fff;
+}
+
+#header {
+    text-align: center;
+}
+
+.leftImg {
+    float: left;
+    margin: 10px 20px 10px 20px;
+}
+
+.rightImg {
+    float: right;
+    margin: 10px 20px 10px 15px;
+}
+
+.centerImg {
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+#footer {
+    font: 12px Helvetica, Arial, Sans-serif;
+    text-align: center;
+    color: #797479;
+}
+
+/*h1 {*/
+/*font: 65px 'Bitter', serif;*/
+/*text-align: center;*/
+/*color: #fff;*/
+/*text-shadow: 0px 2px 6px #333;*/
+/*}*/
+
+/*h1 small {*/
+/*font-size: 20px;*/
+/*text-transform:uppercase;*/
+/*letter-spacing: 14px;*/
+/*display: block;*/
+/*color: #fff;*/
+/*}*/
+
+/*h2 a {*/
+/*display: block;*/
+/*text-decoration: none;*/
+/*margin: 0 0 30px 0;*/
+/*font: 45px 'Bitter', serif;*/
+/*text-align: center;*/
+/*color: #bfe1f1;*/
+/*text-shadow: 0px 2px 6px #333;*/
+/*!*}*!*/
+
+/*h2 a:hover {*/
+/*color: #90bcd0;*/
+/*}*/
