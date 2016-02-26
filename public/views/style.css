@@ -26,10 +26,6 @@ a {
 }
 
 /* CONTENT */
-/*#content {*/
-
-/*}*/
-
 #content p {
     margin:20px;
 }
@@ -72,11 +68,6 @@ a {
 /* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey gradient on top */
 #menu ul li a:hover {
     background: #3293d1 !important;
-}
-
-/* another RGBA background, now with an opacity of 0.8 */
-#menu ul li a.active {
-    background: rgba(255,138,30,0.8) !important;
 }
 
 /* main contents with RGBA background (same colour as active tab) and three rounded corners */
@@ -132,32 +123,3 @@ a {
     text-align: center;
     color: #797479;
 }
-
-/*h1 {*/
-/*font: 65px 'Bitter', serif;*/
-/*text-align: center;*/
-/*color: #fff;*/
-/*text-shadow: 0px 2px 6px #333;*/
-/*}*/
-
-/*h1 small {*/
-/*font-size: 20px;*/
-/*text-transform:uppercase;*/
-/*letter-spacing: 14px;*/
-/*display: block;*/
-/*color: #fff;*/
-/*}*/
-
-/*h2 a {*/
-/*display: block;*/
-/*text-decoration: none;*/
-/*margin: 0 0 30px 0;*/
-/*font: 45px 'Bitter', serif;*/
-/*text-align: center;*/
-/*color: #bfe1f1;*/
-/*text-shadow: 0px 2px 6px #333;*/
-/*!*}*!*/
-
-/*h2 a:hover {*/
-/*color: #90bcd0;*/
-/*}*/

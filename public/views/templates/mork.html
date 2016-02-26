@@ -15,4 +15,17 @@
         mostly unseen and long-suffering superior (voiced by Ralph James). Orson has sent Mork, in order to get him off Ork,
         where humor is not permitted. Attempting to fit in, Mork dresses in an Earth suit, but wears it backward. </p>
 
+    <p>{{message}}</p>
+
+    <!--got this controller working, but need to work on CSSing the output-->
+
+    <div ng-controller="MorkController">
+        <!--now the model is in the controller-->
+        <button ng-click="showImage()">
+            Show New Image
+        </button>
+        <span ng-show="morkImage"><img src="/images/mindy.jpg"></span>
+
+    </div>
+
 </div>
